@@ -1,0 +1,12 @@
+{
+  "name": “amiretemad/mirzachallenge”,
+  "description": "this is mirza group challange",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "amir",
+      "email": "amiretemad2000@gmail.com"
+    }
+  ],
+  "require": {}
+}
