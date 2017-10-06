@@ -1,5 +1,3 @@
-# Mirza Challenge
-
 This Project Related to Mirza Group.
 
 <h1>Installation instructions</h1>
