@@ -2,12 +2,12 @@ This Project Related to Mirza Group.
 
 <h1>Installation instructions</h1>
 
-At the first please change directory to laravel path and then execute these commands ! 
-
+Step One, Please change your current directory to laravel installation path and then run these commands ! 
 
 ``` composer require amiretemad/mirzachallenge dev-master ```
 
-Step One, add the service provider to config/app.php.
+
+Step Two, add the service provider to config/app.php.
 
 ```
 'providers' => [
@@ -15,7 +15,8 @@ Step One, add the service provider to config/app.php.
     'amiretemad\mirzachallenge\mirzaChallangeServiceProvider::class',
 ]
 ```
-Step Two, Please add this to your laravel's main composer.json
+
+Step Three, Please add this to your laravel's main composer.json
 
 ```
 "autoload": {
