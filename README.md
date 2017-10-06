@@ -26,8 +26,8 @@ Step Three, Please add this to your laravel's main composer.json
     }
  ```
  
-At the end run this command at laravel main root
-composer dump-autoload 
+Step Four, run this command at laravel main root
+``` composer dump-autoload ```
 
 That's it ! now you can access to mirzaChallange package By typing in address bar 
 eg : http://localhost/laravel/mirzaChallange
