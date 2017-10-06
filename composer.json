@@ -1,12 +1,20 @@
 {
   "name": "amiretemad/mirzachallenge",
   "description": "this is mirza group challange",
+  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
-      "name": "amir",
-      "email": "amiretemad2000@gmail.com"
+      "name": "Amir Etemad",
+      "email": "amiretemad2000@gmail.com",
+      "homepage": "http://amiretemad.ir",
+      "role": "developer"
     }
   ],
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "amiretemad\\mirzachallenge\\": "vendor/amiretemad/mirzachallenge/src"
+    }
+  }
 }
