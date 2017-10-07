@@ -4,7 +4,7 @@ namespace amiretemad\mirzachallenge;
 
 use Illuminate\Support\ServiceProvider;
 
-class mirzaChallangeServiceProvider extends ServiceProvider
+class mirzaChallengeServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -13,9 +13,9 @@ class mirzaChallangeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      // Load Migration Files
+      // define package database migration file path
       $this->loadMigrationsFrom(__DIR__.'/Migrations');
-      // Configure Router Path
+      // define package router path
       include __DIR__.'/routes.php';
     }
 
@@ -26,9 +26,9 @@ class mirzaChallangeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-      // Register Controller
+      // Register package Controller
       $this->app->make('amiretemad\mirzachallenge\Controllers\mainController');
-      // Set Path Of view Files
+      // define package view files path
       $this->loadViewsFrom(__DIR__.'/views','mirzachallenge');
     }
 }

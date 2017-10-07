@@ -8,6 +8,7 @@ class HotelsModel extends Model {
 
   // Set Table Name
   protected $table = 'Hotels';
+
   // Set TimeStamp Flags
   public $timestamps = false;
 

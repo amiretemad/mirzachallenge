@@ -23,6 +23,14 @@ class CreateHotelsTable extends Migration {
       Schema::table('Hotels', function ($table) {
         $table->foreign('countries_id')->references('id')->on('Countries')->onDelete('cascade');
       });
+      // Insert some records to table
+      DB::table('Hotels')->insert([
+        ['hotel_name' => 'The Ritz-Carlton, Istanbul', 'countries_id' => 1],
+        ['hotel_name' => 'Hotel Mercure Istanbul Taksim', 'countries_id' => 1],
+        ['hotel_name' => 'Hotel Novotel Istanbul Bosphorus', 'countries_id' => 1],
+        ['hotel_name' => 'Hotel Pars, Tabriz', 'countries_id' => 2],
+        ['hotel_name' => 'Hotel Esteghlal, Tehran', 'countries_id' => 2]
+      ]);
     }
   }
 

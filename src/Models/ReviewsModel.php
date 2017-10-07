@@ -8,6 +8,7 @@ class ReviewsModel extends Model {
 
   // Set Table Name
   protected $table = 'Reviews';
+
   // Set TimeStamp Flags
   public $timestamps = false;
 

@@ -18,6 +18,11 @@ class CreateCountriesTable extends Migration {
         $table->increments('id');
         $table->string('country_name', '63');
       });
+      // Insert some records to table
+      DB::table('Countries')->insert([
+        ['country_name' => 'turkey'],
+        ['country_name' => 'iran']
+      ]);
     }
   }
 
