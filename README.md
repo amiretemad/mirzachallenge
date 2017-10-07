@@ -32,14 +32,21 @@ Step Four, run this command at laravel main root <br />
 composer dump-autoload 
 ```
 
+</br>
+attention : 
+<b>After install you need to create a new database and set the database connection info in .env file
+because i add some records to database.</b>
+
+```
+php artisan migrate
+```
 
 That's it ! now you can access to mirza challenge package By typing in address bar 
 
 ```
 http://localhost/laravelInstallationPath/public/mirza
 ```
-</br>
-<b>attention : </b>
-After install you need to create a new database and set the database connection info in .env file
-because i add some records to database.
+
+
+
 
