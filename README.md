@@ -41,5 +41,5 @@ http://localhost/laravelInstallationPath/public/mirza
 </br>
 <b>attention : </b>
 After install you need to create a new database and set the database connection info in .env file
-because i add some records.
+because i add some records to database.
 
