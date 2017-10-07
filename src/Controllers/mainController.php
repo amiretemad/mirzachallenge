@@ -5,6 +5,7 @@ namespace amiretemad\mirzachallenge\Controllers;
 use amiretemad\mirzachallenge\Models\CountriesModel;
 use amiretemad\mirzachallenge\Models\HotelsModel;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 
 class mainController extends Controller {
