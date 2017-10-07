@@ -12,7 +12,7 @@ Step Two, add the service provider to config/app.php.
 ```
 'providers' => [
     //..
-    'amiretemad\mirzachallenge\mirzaChallengeServiceProvider::class',
+    amiretemad\mirzachallenge\mirzaChallengeServiceProvider::class,
 ]
 ```
 
