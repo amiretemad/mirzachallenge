@@ -12,6 +12,13 @@ class mainController extends Controller {
   // Display Index Page
   public function index() {
 
+    try {
+      // Check Database connection
+      DB::connection()->getPdo();
+    } catch (\Exception $e) {
+      die("Could not connect to the database.  Please check your configuration.");
+    }
+
     // Check Package Tables created or not
     if (Schema::hasTable('Hotels') && Schema::hasTable('Countries') && Schema::hasTable('Reviews')) {
       // Get Countries List
