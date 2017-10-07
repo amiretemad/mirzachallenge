@@ -27,9 +27,15 @@ Step Three, Please add this to your laravel's main composer.json
  ```
  
 Step Four, run this command at laravel main root <br />
-``` composer dump-autoload ```
+
+``` 
+composer dump-autoload 
+```
 
 
 That's it ! now you can access to mirza challenge package By typing in address bar 
-eg : http://localhost/laravel/public/<b style="">mirza</b>
+
+```
+http://localhost/laravelInstallationPath/public/mirza
+```
 
